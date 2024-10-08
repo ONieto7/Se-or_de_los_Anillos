@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="backgroundPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="705.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Batalla_Controlador.GuerraController" stylesheets="@styles.css" 
+      styleClass="background-pane">
+   <children>
+      <Label layoutX="63.0" layoutY="35.0" text="Heroes" />
+      <AnchorPane layoutX="48.0" layoutY="52.0" prefHeight="228.0" prefWidth="230.0" style="-fx-background-color: #D3D3D3;">
+         <children>
+            <Label layoutX="75.0" layoutY="0.0" text=" Añadir Heroe " />
+            <Label layoutX="28.0" layoutY="33.0" text="Nombre:" />
+            <TextField fx:id="nombreHeroe" layoutX="105.0" layoutY="28.0" prefHeight="26.0" prefWidth="110.0" />
+            <Label layoutX="28.0" layoutY="80.0" text="Tipo:" />
+            <ChoiceBox fx:id="tipoHeroe" layoutX="105.0" layoutY="75.0" prefHeight="26.0" prefWidth="110.0" />
+            <Label layoutX="27.0" layoutY="132.0" text="Vida:" />
+            <TextField fx:id="vidaHeroe" layoutX="105.0" layoutY="127.0" prefHeight="26.0" prefWidth="110.0" />
+            <Label layoutX="27.0" layoutY="178.0" text="Armadura:" />
+            <TextField fx:id="armaduraHeroe" layoutX="106.0" layoutY="173.0" prefHeight="26.0" prefWidth="110.0" />
+            <Button fx:id="anadirHeroe" layoutX="160.0" layoutY="214.0" mnemonicParsing="false" text="Añadir" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="327.0" layoutY="35.0" text="Bestias" />
+      <AnchorPane layoutX="307.0" layoutY="52.0" prefHeight="228.0" prefWidth="238.0" style="-fx-background-color: #D3D3D3;">
+         <children>
+            <Label layoutX="75.0" layoutY="0.0" text=" Añadir Bestia " />
+            <Label layoutX="31.0" layoutY="30.0" text="Nombre:" />
+            <TextField fx:id="nombreBestia" layoutX="111.0" layoutY="26.0" prefHeight="26.0" prefWidth="110.0" />
+            <Label layoutX="32.0" layoutY="75.0" text="Tipo:" />
+            <ChoiceBox fx:id="tipoBestia" layoutX="111.0" layoutY="72.0" prefHeight="26.0" prefWidth="110.0" />
+            <Label layoutX="32.0" layoutY="131.0" text="Vida:" />
+            <TextField fx:id="vidaBestia" layoutX="111.0" layoutY="127.0" prefHeight="26.0" prefWidth="110.0" />
+            <Label layoutX="31.0" layoutY="180.0" text="Armadura:" />
+            <TextField fx:id="armaduraBestia" layoutX="111.0" layoutY="177.0" prefHeight="26.0" prefWidth="110.0" />
+            <Button fx:id="anadirBestia" layoutX="172.0" layoutY="216.0" mnemonicParsing="false" text="Añadir" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="80.0" layoutY="297.0" text="Batalla" />
+      <AnchorPane layoutX="49.0" layoutY="314.0" prefHeight="366.0" prefWidth="503.0" style="-fx-background-color: #D3D3D3;">
+         <children>
+            <TextArea fx:id="txtBatalla" layoutX="22.0" layoutY="206.0" prefHeight="134.0" prefWidth="463.0" />
+            <Button fx:id="luchar" layoutX="214.0" layoutY="156.0" prefHeight="40.0" prefWidth="79.0" mnemonicParsing="false" text="LUCHAR!" />
+            <Button fx:id="btnInfo" layoutX="467.0" layoutY="327.0" mnemonicParsing="false" text="i" />       
+            <Label layoutX="29.0" layoutY="14.0" text="Equipo de Héroes" />
+            <ListView fx:id="equipoHeroes" layoutX="29.0" layoutY="30.0" prefHeight="107.0" prefWidth="151.0" />
+            <Label layoutX="252.0" layoutY="14.0" text="Equipo de Bestias" />
+            <Button fx:id="subirHeroe" layoutX="185.0" layoutY="40.0" mnemonicParsing="false" text="Subir" />
+            <Button fx:id="bajarHeroe" layoutX="185.0" layoutY="71.0" mnemonicParsing="false" text="Bajar" />
+            <Button fx:id="eliminarHeroe" layoutX="185.0" layoutY="103.0" mnemonicParsing="false" text="Eliminar" />
+            <ListView fx:id="equipoBestias" layoutX="252.0" layoutY="30.0" prefHeight="107.0" prefWidth="151.0" />
+            <Button fx:id="subirBestia" layoutX="408.0" layoutY="40.0" mnemonicParsing="false" text="Subir" />
+            <Button fx:id="bajarBestia" layoutX="409.0" layoutY="71.0" mnemonicParsing="false" text="Bajar" />
+            <Button fx:id="eliminarBestia" layoutX="409.0" layoutY="103.0" mnemonicParsing="false" text="Eliminar" />
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>
+

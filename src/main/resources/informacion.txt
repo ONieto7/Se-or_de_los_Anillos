@@ -1,0 +1,19 @@
+     UN GRAN PODER CONLLEVA UNA GRAN RESPONSABILIDAD
+ El objetivo del juego es la creación de dos ejércitos de personajes, 
+ uno de héroes y otro de bestias, que se enfrentarán entre ellos, 
+ mediante un sistema de turnos, hasta que uno de ellos logre 
+ la victoria.
+ Para ello, cada personaje estará caracterizado por un nombre, 
+ unos puntos de vida (número entero) y un nivel de resistencia 
+ de su armadura (número entero).
+ 
+ Para simplificar el sistema de batalla, se enfrentarán siempre 
+ los personajes situados en la misma posición de cada ejército. 
+ Si alguno de los ejércitos dispone de más efectivos que el contrario 
+ los personajes sobrantes no participarán en ese turno de batalla. 
+ En cada turno se pruducirán todos los enfrentamientos y se 
+ disminuirá la vida de cada personaje. En el momento en que un 
+ personaje llegue a un nivel de vida igual o inferior a cero 
+ se producira su muerte por lo que se eliminará de su poscición 
+ y se desplazarán todos sus compañeros en posiciones posteriores 
+ para cubir la baja.

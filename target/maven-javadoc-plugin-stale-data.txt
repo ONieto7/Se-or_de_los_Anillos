@@ -1,0 +1,72 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/oscar/.m2/repository/org/openjfx/javafx-controls/22.0.2/javafx-controls-22.0.2.jar;C:/Users/oscar/.m2/repository/org/openjfx/javafx-controls/22.0.2/javafx-controls-22.0.2-win.jar;C:/Users/oscar/.m2/repository/org/openjfx/javafx-graphics/22.0.2/javafx-graphics-22.0.2.jar;C:/Users/oscar/.m2/repository/org/openjfx/javafx-graphics/22.0.2/javafx-graphics-22.0.2-win.jar;C:/Users/oscar/.m2/repository/org/openjfx/javafx-base/22.0.2/javafx-base-22.0.2.jar;C:/Users/oscar/.m2/repository/org/openjfx/javafx-base/22.0.2/javafx-base-22.0.2-win.jar;C:/Users/oscar/.m2/repository/org/openjfx/javafx-fxml/22.0.2/javafx-fxml-22.0.2.jar;C:/Users/oscar/.m2/repository/org/openjfx/javafx-fxml/22.0.2/javafx-fxml-22.0.2-win.jar;C:/Users/oscar/.m2/repository/org/openjfx/javafx-media/22.0.2/javafx-media-22.0.2.jar;C:/Users/oscar/.m2/repository/org/openjfx/javafx-media/22.0.2/javafx-media-22.0.2-win.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'C:/Cursos/Tokio School/ProyectoFinal/4-Batalla-Tierra-Media-Mejora5/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Cursos/Tokio School/ProyectoFinal/4-Batalla-Tierra-Media-Mejora5/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'4-Batalla-Tierra-Media-FX 0.0.1-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'4-Batalla-Tierra-Media-FX 0.0.1-SNAPSHOT API'
+Batalla_Controlador
+Batalla_Modelo
+Batalla_Vista
+Bestias
+Heroes
+'C:/Cursos/Tokio School/ProyectoFinal/4-Batalla-Tierra-Media-Mejora5/src/main/java/Batalla_Controlador/GuerraController.java'
+'C:/Cursos/Tokio School/ProyectoFinal/4-Batalla-Tierra-Media-Mejora5/src/main/java/Batalla_Modelo/Guerra.java'
+'C:/Cursos/Tokio School/ProyectoFinal/4-Batalla-Tierra-Media-Mejora5/src/main/java/Batalla_Vista/GuerraVista.java'
+'C:/Cursos/Tokio School/ProyectoFinal/4-Batalla-Tierra-Media-Mejora5/src/main/java/Bestias/Bestia.java'
+'C:/Cursos/Tokio School/ProyectoFinal/4-Batalla-Tierra-Media-Mejora5/src/main/java/Bestias/Orco.java'
+'C:/Cursos/Tokio School/ProyectoFinal/4-Batalla-Tierra-Media-Mejora5/src/main/java/Bestias/Trasgo.java'
+'C:/Cursos/Tokio School/ProyectoFinal/4-Batalla-Tierra-Media-Mejora5/src/main/java/Bestias/UrukHai.java'
+'C:/Cursos/Tokio School/ProyectoFinal/4-Batalla-Tierra-Media-Mejora5/src/main/java/Heroes/Elfo.java'
+'C:/Cursos/Tokio School/ProyectoFinal/4-Batalla-Tierra-Media-Mejora5/src/main/java/Heroes/Enano.java'
+'C:/Cursos/Tokio School/ProyectoFinal/4-Batalla-Tierra-Media-Mejora5/src/main/java/Heroes/Heroe.java'
+'C:/Cursos/Tokio School/ProyectoFinal/4-Batalla-Tierra-Media-Mejora5/src/main/java/Heroes/Hobbit.java'
+'C:/Cursos/Tokio School/ProyectoFinal/4-Batalla-Tierra-Media-Mejora5/src/main/java/Heroes/Humano.java'
+C:\Users\oscar\.m2\repository\org\openjfx\javafx-controls\22.0.2\javafx-controls-22.0.2.jar = 1726562374254
+C:\Users\oscar\.m2\repository\org\openjfx\javafx-controls\22.0.2\javafx-controls-22.0.2-win.jar = 1726562374696
+C:\Users\oscar\.m2\repository\org\openjfx\javafx-graphics\22.0.2\javafx-graphics-22.0.2.jar = 1726562374353
+C:\Users\oscar\.m2\repository\org\openjfx\javafx-graphics\22.0.2\javafx-graphics-22.0.2-win.jar = 1726562375621
+C:\Users\oscar\.m2\repository\org\openjfx\javafx-base\22.0.2\javafx-base-22.0.2.jar = 1726562374350
+C:\Users\oscar\.m2\repository\org\openjfx\javafx-base\22.0.2\javafx-base-22.0.2-win.jar = 1726562374637
+C:\Users\oscar\.m2\repository\org\openjfx\javafx-fxml\22.0.2\javafx-fxml-22.0.2.jar = 1726562374419
+C:\Users\oscar\.m2\repository\org\openjfx\javafx-fxml\22.0.2\javafx-fxml-22.0.2-win.jar = 1726562374528
+C:\Users\oscar\.m2\repository\org\openjfx\javafx-media\22.0.2\javafx-media-22.0.2.jar = 1726562374460
+C:\Users\oscar\.m2\repository\org\openjfx\javafx-media\22.0.2\javafx-media-22.0.2-win.jar = 1726562374855
+C:\Cursos\Tokio School\ProyectoFinal\4-Batalla-Tierra-Media-Mejora5\src\main\java = 1725868788277
+C:\Cursos\Tokio School\ProyectoFinal\4-Batalla-Tierra-Media-Mejora5\target\site\apidocs\allclasses-index.html = 1726566379567
+C:\Cursos\Tokio School\ProyectoFinal\4-Batalla-Tierra-Media-Mejora5\target\site\apidocs\allpackages-index.html = 1726566379571
+C:\Cursos\Tokio School\ProyectoFinal\4-Batalla-Tierra-Media-Mejora5\target\site\apidocs\element-list = 1726566379393
+C:\Cursos\Tokio School\ProyectoFinal\4-Batalla-Tierra-Media-Mejora5\target\site\apidocs\help-doc.html = 1726566379606
+C:\Cursos\Tokio School\ProyectoFinal\4-Batalla-Tierra-Media-Mejora5\target\site\apidocs\index-all.html = 1726566379595
+C:\Cursos\Tokio School\ProyectoFinal\4-Batalla-Tierra-Media-Mejora5\target\site\apidocs\index.html = 1726566379541
+C:\Cursos\Tokio School\ProyectoFinal\4-Batalla-Tierra-Media-Mejora5\target\site\apidocs\jquery-ui.overrides.css = 1726566379625
+C:\Cursos\Tokio School\ProyectoFinal\4-Batalla-Tierra-Media-Mejora5\target\site\apidocs\member-search-index.js = 1726566379577
+C:\Cursos\Tokio School\ProyectoFinal\4-Batalla-Tierra-Media-Mejora5\target\site\apidocs\module-search-index.js = 1726566379573
+C:\Cursos\Tokio School\ProyectoFinal\4-Batalla-Tierra-Media-Mejora5\target\site\apidocs\overview-summary.html = 1726566379599
+C:\Cursos\Tokio School\ProyectoFinal\4-Batalla-Tierra-Media-Mejora5\target\site\apidocs\overview-tree.html = 1726566379533
+C:\Cursos\Tokio School\ProyectoFinal\4-Batalla-Tierra-Media-Mejora5\target\site\apidocs\package-search-index.js = 1726566379574
+C:\Cursos\Tokio School\ProyectoFinal\4-Batalla-Tierra-Media-Mejora5\target\site\apidocs\script.js = 1726566379610
+C:\Cursos\Tokio School\ProyectoFinal\4-Batalla-Tierra-Media-Mejora5\target\site\apidocs\search.js = 1726566379614
+C:\Cursos\Tokio School\ProyectoFinal\4-Batalla-Tierra-Media-Mejora5\target\site\apidocs\stylesheet.css = 1726566379609
+C:\Cursos\Tokio School\ProyectoFinal\4-Batalla-Tierra-Media-Mejora5\target\site\apidocs\tag-search-index.js = 1726566379578
+C:\Cursos\Tokio School\ProyectoFinal\4-Batalla-Tierra-Media-Mejora5\target\site\apidocs\type-search-index.js = 1726566379576

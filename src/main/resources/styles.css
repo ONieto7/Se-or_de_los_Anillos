@@ -1,0 +1,51 @@
+/* styles.css */
+
+
+.background-pane {
+    -fx-background-image: url("/Image/Mapa.jpg");
+    -fx-background-size: cover; /* Ajusta el tamaño de la imagen al tamaño del Pane */
+    -fx-background-repeat: no-repeat; /* No repetir la imagen */
+    -fx-background-position: center center; /* Centra la imagen */
+}
+
+.label {
+    -fx-font-weight: bold;
+}
+
+/* Fondo y estilo de los botones de Añadir, Subir, Bajar y Eliminar */
+#anadirHeroe, #anadirBestia, #subirHeroe, #bajarHeroe, #eliminarHeroe,
+#subirBestia, #bajarBestia, #eliminarBestia {
+    -fx-background-color: #000000; /* Fondo negro */
+    -fx-text-fill: #FFFFFF; /* Texto blanco */
+}
+
+/* Estado hover para los botones de Añadir, Subir, Bajar y Eliminar */
+#anadirHeroe:hover, #anadirBestia:hover, #subirHeroe:hover, #bajarHeroe:hover, #eliminarHeroe:hover,
+#subirBestia:hover, #bajarBestia:hover, #eliminarBestia:hover {
+    -fx-background-color: #333333; /* Color más oscuro para hover */
+}
+
+/* Botón de Lucha con su estilo original */
+#luchar {
+    -fx-background-color: #FF5733; /* Color de fondo original */
+    -fx-text-fill: #FFFFFF; /* Texto blanco */
+}
+
+#luchar:hover {
+    -fx-background-color: #C70039; /* Color más oscuro para hover */
+}
+
+#btnInfo {
+    -fx-background-color: #3498DB; /* Color de fondo azul */
+    -fx-text-fill: #FFFFFF; /* Texto blanco */
+    -fx-font-size: 16px; /* Tamaño de la fuente */
+    -fx-font-weight: bold; /* Opcional: texto en negrita */
+    -fx-padding: 10px 20px; /* Opcional: añadir relleno para hacer el botón más grande */
+}
+
+/* Estado hover para el botón de Información */
+#btnInfo:hover {
+    -fx-background-color: #2980B9; /* Color más oscuro para hover */
+}
+
+

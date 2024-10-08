@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"Batalla_Controlador"},{"l":"Batalla_Modelo"},{"l":"Batalla_Vista"},{"l":"Bestias"},{"l":"Heroes"}];updateSearchResults();
